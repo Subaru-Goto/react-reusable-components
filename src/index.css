@@ -32,3 +32,30 @@ border{
   background-color: var(--yellow);
   color: #92400E;
 }
+
+.banner--content{
+  display: grid;
+  grid-template-areas:
+  "icon title"
+  "icon title";
+  grid-template-columns: max-content max-content;
+  max-width: 800px;
+  max-height: max-content;
+  padding: 0 1rem;
+  margin: 1rem;
+  border-radius: 5px;
+
+  & .banner--icon{
+    grid-area: icon;
+    font-size: 1rem;
+    margin-right: .5rem;
+    align-self: baseline;
+  }
+
+  & .banner--title{
+    grid-area: title;
+    align-self: baseline;
+    line-height: .5;
+  }
+
+}
