@@ -1,0 +1,34 @@
+:root {
+  --primary: #f8f9fa;
+  --red: #fee2e2;
+  --yellow: #fef3c7;
+
+}
+
+border{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.badge{
+  background-color: var(--primary);
+  padding: .5rem 1rem;
+  margin: 1rem;
+  display: inline;
+  font-weight: bold;
+}
+
+.badge--pill{
+  border-radius: 30px;
+}
+
+.badge--red{
+  background-color: var(--red);
+  color: #991B1B;
+}
+
+.badge--yellow{
+  background-color: var(--yellow);
+  color: #92400E;
+}

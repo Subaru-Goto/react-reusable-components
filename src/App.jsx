@@ -1,9 +1,9 @@
-import Badges from "./components/Bades/Badges"
+import Badges from "./components/Badges/Badges"
 function App() {
   return (
     <>
-      <Badges>Badge</Badges>
-
+      <Badges variant="square" color="yellow">Badge</Badges>
+      <Badges variant="pill" color="red">Badge</Badges>
     </>
   )
 }
